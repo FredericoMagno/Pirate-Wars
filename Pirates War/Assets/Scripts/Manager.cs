@@ -11,7 +11,7 @@ public class Manager : MonoBehaviour
     [SerializeField] GameObject FinalPanel,panelPos;
     void Start()
     {
-        
+        FinalPanel.transform.position = new Vector3(1000,1000,1000);
     }
 
     
